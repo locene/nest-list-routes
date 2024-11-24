@@ -1,24 +1,27 @@
 {
-  "name": "nest-list-routes",
-  "version": "1.0.0",
-  "description": "List all routes and additional information for Nest framework.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/locene/nest-list-routes.git"
-  },
-  "keywords": [
-    "nestjs",
-    "list",
-    "routes"
-  ],
-  "author": "locene (https://locene.com)",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/locene/nest-list-routes/issues"
-  },
-  "homepage": "https://github.com/locene/nest-list-routes#readme"
+    "name": "nest-list-routes",
+    "version": "1.0.0",
+    "description": "List all routes and additional information for Nest framework.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/locene/nest-list-routes.git"
+    },
+    "keywords": [
+        "nestjs",
+        "list",
+        "routes"
+    ],
+    "author": "locene (https://locene.com)",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/locene/nest-list-routes/issues"
+    },
+    "homepage": "https://github.com/locene/nest-list-routes#readme",
+    "devDependencies": {
+        "typescript": "^5.7.2"
+    }
 }
