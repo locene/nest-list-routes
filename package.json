@@ -23,6 +23,9 @@
         "url": "https://github.com/locene/nest-list-routes/issues"
     },
     "homepage": "https://github.com/locene/nest-list-routes#readme",
+    "engines": {
+        "node": "20"
+    },
     "devDependencies": {
         "@eslint/js": "^9.15.0",
         "@nestjs/common": "^10.4.8",
