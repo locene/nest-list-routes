@@ -21,16 +21,16 @@ export class NestListRoutesService implements OnApplicationBootstrap {
 
     #print() {
         let headers: string[] = ['Method', 'Path'];
-        if (this.options.metatypes && this.options.metatypes.length > 0) {
-            headers = [...headers, ...this.options.metatypes];
+        if (this.options.metadataKeys && this.options.metadataKeys.length > 0) {
+            headers = [...headers, ...this.options.metadataKeys];
         }
 
-        const rows = this.#discoveryDecoratorsWithMetaAtKey(this.options.metatypes);
+        const rows = this.#discoveryDecoratorsWithMetaAtKey(this.options.metadataKeys);
 
         this.#output(headers, rows);
     }
 
-    #discoveryDecoratorsWithMetaAtKey(metatypes: string[] | undefined) {
+    #discoveryDecoratorsWithMetaAtKey(metadataKeys: string[] | undefined) {
         const decorators: any[] = [];
 
         const scanner = new MetadataScanner();
@@ -54,10 +54,10 @@ export class NestListRoutesService implements OnApplicationBootstrap {
 
                 const data = [styledMethod, routePath];
 
-                if (metatypes && metatypes.length > 0) {
-                    metatypes.forEach((metatype: string) => {
-                        const metadata = Reflect.getMetadata(metatype, controller.instance, methodName);
-                        data.push(metadata);
+                if (metadataKeys && metadataKeys.length > 0) {
+                    metadataKeys.forEach((metadataKey: string) => {
+                        const metadataValue = Reflect.getMetadata(metadataKey, controller.instance, methodName);
+                        data.push(metadataValue);
                     });
                 }
 

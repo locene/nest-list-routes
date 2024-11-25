@@ -8,7 +8,7 @@ export class NestListRoutesModule {
     static forRoot(options?: NestListRoutesModuleOptions): DynamicModule {
         const optionsWithDefaults = {
             print: true,
-            metatypes: [],
+            metadataKeys: [],
             ...options,
         };
 
