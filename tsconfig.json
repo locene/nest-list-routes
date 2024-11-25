@@ -16,11 +16,10 @@
         "useUnknownInCatchVariables": false
     },
     "include": [
-        "lib/**/*"
+        "lib/**/*",
+        "eslint.config.mjs"
     ],
     "exclude": [
-        "node_modules",
-        "**/*.spec.ts",
-        "tests"
+        "node_modules"
     ]
 }
