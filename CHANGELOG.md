@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0] - 2024-11-25
+## [1.0.1](https://github.com/locene/nest-list-routes/compare/v1.0.0..v1.0.1) - 2024-12-02
+
+### 🐛 Bug Fixes
+
+- Update the peerDependencies for chalk and cli-table3 to align with nest-cli@10.0.0 - ([df9da90](https://github.com/locene/nest-list-routes/commit/df9da90b085540d4a085706aa50fc4782d455b03))
+
+### ⚙️ Miscellaneous Tasks
+
+- Update cliff.toml - ([a625233](https://github.com/locene/nest-list-routes/commit/a62523361f1dbfb828056a5dc2467a42d858528b))
+
+## 1.0.0 - 2024-12-02
 
 ### 🚀 Features
 
@@ -18,6 +28,7 @@ All notable changes to this project will be documented in this file.
 
 ### ⚙️ Miscellaneous Tasks
 
+- Add cliff.toml - ([f36cb17](https://github.com/locene/nest-list-routes/commit/f36cb17298ee4daee8b544b56b9c02e209a99d7a))
 - Add .npmignore - ([9c32470](https://github.com/locene/nest-list-routes/commit/9c324704c404d26d599da285c2ab4a505b271c39))
 - Specify Node and npm versions - ([eaeab5b](https://github.com/locene/nest-list-routes/commit/eaeab5b278db9e0e0a20d98c979fcf4ce546c649))
 - Update VS Code configuration - ([79275fb](https://github.com/locene/nest-list-routes/commit/79275fbb1ccf988a829c0065ee9f1ba832c79341))

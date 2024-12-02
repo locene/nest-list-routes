@@ -1,6 +1,6 @@
 {
     "name": "nest-list-routes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "List all routes and additional information for Nest framework.",
     "main": "dist/index.js",
     "scripts": {
