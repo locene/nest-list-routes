@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2](https://github.com/locene/nest-list-routes/compare/v1.0.1..v1.0.2) - 2024-12-10
+
+### 🐛 Bug Fixes
+
+- Limit the major version of chalk in peerDependencies to version 4 - ([d87092a](https://github.com/locene/nest-list-routes/commit/d87092a9d3b1c5e70a05978c6ade8108401bc3a3))
+
 ## [1.0.1](https://github.com/locene/nest-list-routes/compare/v1.0.0..v1.0.1) - 2024-12-02
 
 ### 🐛 Bug Fixes
