@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3](https://github.com/locene/nest-list-routes/compare/v1.0.2..v1.0.3) - 2025-01-17
+
+### 🐛 Bug Fixes
+
+- Adjust the node version in the engines section of package.json to >=20 - ([0950edd](https://github.com/locene/nest-list-routes/commit/0950eddca1d4001d15b3428d4e5107ffe14d398e))
+
 ## [1.0.2](https://github.com/locene/nest-list-routes/compare/v1.0.1..v1.0.2) - 2024-12-10
 
 ### 🐛 Bug Fixes
